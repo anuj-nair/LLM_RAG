@@ -35,7 +35,7 @@ Inspired By [RAG using Llama 2, Langchain and ChromaDB](https://www.kaggle.com/c
 ## Download LLM Model
 Using HuggingFace CLI
 ```
-huggingface-cli download QuantFactory/Meta-Llama-3-8B-GGUF --local-dir model_files --local-dir-use-symlinks False --include='*Q4_K_M.gguf'
+huggingface-cli download TheBloke/Llama-2-7b-Chat-GGUF --local-dir model_files --local-dir-use-symlinks False --include='*Q4_K_M.gguf'
 ```
 This will download Llama 3 8B Instruct LLM in `model_files` folder.
 
@@ -45,8 +45,8 @@ Currently `txt`, `csv` and `pdf` file formats are supported.
 
 ## Run LLM_RAG.ipynb
 1. It will load necessary python libraries 
-2. Load the Llama 3 8B Instruct LLM
-3. Load the All MPNET Base V2 embedding model
+2. Load the Llama 2 7B LLM
+3. Load the All MiniLM L6 V2 embedding model
 4. Load custom documents 
 5. Convert custom documents to vectors using embedding model and store it to Chroma vector database.
 6. LLM generates output to the question by retrieving relevant information from vector database. 
