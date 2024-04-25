@@ -8,7 +8,7 @@ Inspired By [RAG using Llama 2, Langchain and ChromaDB](https://www.kaggle.com/c
 1. Create Python Environment
 2. Install Required Python Libraries
    ```python
-   pip install torch==2.0.1 chromadb==0.4.12 langchain==0.0.300 langchain-community==0.0.34 huggingface-hub==0.22.2 sentence-transformers==2.2.2 pypdf==4.2.0
+   pip install torch==2.0.1 chromadb==0.4.12 langchain==0.1.16 langchain-chroma==0.1.0 langchain-community==0.0.34 huggingface-hub==0.22.2 sentence-transformers==2.2.2 pypdf==4.2.0
    ```
    To Install Llama-CPP-Python  
    For this further information check this [link](https://python.langchain.com/docs/integrations/llms/llamacpp/)
